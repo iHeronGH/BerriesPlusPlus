@@ -1,0 +1,17 @@
+{
+	"criteria": {
+		"get_oasisberry": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"nbt": "{berries++:{type:'oasisberries'}}",
+						"items": [
+							"minecraft:glow_berries"
+						]
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"criteria": {
+		"get_honeyberry": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"nbt": "{berries++:{type:'honeyberries'}}",
+						"items": [
+							"minecraft:glow_berries"
+						]
+					}
+				]
+			}
+		}
+	}
+}

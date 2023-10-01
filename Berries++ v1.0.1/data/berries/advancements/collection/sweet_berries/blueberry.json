@@ -1,0 +1,17 @@
+{
+	"criteria": {
+		"get_blueberry": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"nbt": "{berries++:{type:'blueberries'}}",
+						"items": [
+							"minecraft:sweet_berries"
+						]
+					}
+				]
+			}
+		}
+	}
+}

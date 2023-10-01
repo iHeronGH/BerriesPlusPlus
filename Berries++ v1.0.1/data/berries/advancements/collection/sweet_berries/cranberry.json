@@ -1,0 +1,17 @@
+{
+	"criteria": {
+		"get_cranberry": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"nbt": "{berries++:{type:'cranberries'}}",
+						"items": [
+							"minecraft:sweet_berries"
+						]
+					}
+				]
+			}
+		}
+	}
+}

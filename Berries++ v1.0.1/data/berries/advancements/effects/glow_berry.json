@@ -1,0 +1,17 @@
+{
+	"criteria": {
+		"ate_glowberry": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:glow_berries"
+					]
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "berries:effects/glow_berry"
+	}
+}

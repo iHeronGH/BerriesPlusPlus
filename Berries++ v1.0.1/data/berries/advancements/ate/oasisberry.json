@@ -1,0 +1,15 @@
+{
+	"criteria": {
+		"ate_oasisberry": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:glow_berries"
+					],
+					"nbt": "{berries++:{type:'oasisberries'}}"
+				}
+			}
+		}
+	}
+}
