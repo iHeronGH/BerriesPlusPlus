@@ -17,8 +17,12 @@
 							}
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{berries++:{type:'huckleberries'},CustomModelData:100004}"
+						  "function": "minecraft:set_custom_model_data",
+						  "value": 100004
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{berries++:{type:'huckleberries'}}"
 						}
 					]
 				}

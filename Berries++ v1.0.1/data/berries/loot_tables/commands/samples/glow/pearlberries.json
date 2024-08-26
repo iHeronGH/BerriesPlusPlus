@@ -39,8 +39,12 @@
 							]
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{berries++:{type:'pearlberries'},CustomModelData:100018}"
+						  "function": "minecraft:set_custom_model_data",
+						  "value": 100018
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{berries++:{type:'pearlberries'}}"
 						}
 					]
 				}
