@@ -1,8 +1,10 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:glow_berries",
-			"nbt": "{CustomModelData:100015}"
+			"id": "minecraft:glow_berries",
+			"components": {
+				"custom_data":"{CustomModelData:100015}"
+			}
 		},
 		"title": "A Sweet Treat!",
 		"description": "Collect one of the 15 new sweet berries!",

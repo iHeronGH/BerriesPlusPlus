@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "berries:commands/samples/sweet/all"
+					"value": "berries:commands/samples/sweet/all"
 				}
 			]
 		},
@@ -15,7 +15,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "berries:commands/samples/glow/all"
+					"value": "berries:commands/samples/glow/all"
 				}
 			]
 		}

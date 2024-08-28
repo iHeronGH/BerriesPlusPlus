@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "berries:commands/samples/glow/blossomberries"
+					"value": "berries:commands/samples/glow/blossomberries"
 				}
 			]
 		},
@@ -15,7 +15,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "berries:commands/samples/glow/honeyberries"
+					"value": "berries:commands/samples/glow/honeyberries"
 				}
 			]
 		},
@@ -24,7 +24,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "berries:commands/samples/glow/nachtberries"
+					"value": "berries:commands/samples/glow/nachtberries"
 				}
 			]
 		},
@@ -33,7 +33,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "berries:commands/samples/glow/oasisberries"
+					"value": "berries:commands/samples/glow/oasisberries"
 				}
 			]
 		},
@@ -42,7 +42,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "berries:commands/samples/glow/pearlberries"
+					"value": "berries:commands/samples/glow/pearlberries"
 				}
 			]
 		},
@@ -51,7 +51,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "berries:commands/samples/glow/satinberries"
+					"value": "berries:commands/samples/glow/satinberries"
 				}
 			]
 		},
@@ -60,7 +60,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "berries:commands/samples/glow/skyberries"
+					"value": "berries:commands/samples/glow/skyberries"
 				}
 			]
 		},
@@ -69,7 +69,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "berries:commands/samples/glow/sparkberries"
+					"value": "berries:commands/samples/glow/sparkberries"
 				}
 			]
 		},
@@ -78,7 +78,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "berries:commands/samples/glow/valorberries"
+					"value": "berries:commands/samples/glow/valorberries"
 				}
 			]
 		},
@@ -87,7 +87,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "berries:commands/samples/glow/verdenberries"
+					"value": "berries:commands/samples/glow/verdenberries"
 				}
 			]
 		}

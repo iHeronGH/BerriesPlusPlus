@@ -1,8 +1,10 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:glow_berries",
-			"nbt": "{CustomModelData:100006}"
+			"id": "minecraft:glow_berries",
+			"components": {
+							"custom_data":"{CustomModelData:100006}"
+			}
 		},
 		"title": "Oops! All Berries!",
 		"description": "Collect all 25 new Berries++ berries!",

@@ -7,7 +7,9 @@
 					"items": [
 						"minecraft:glow_berries"
 					],
-					"nbt": "{berries++:{type:'valorberries'}}"
+					"components": {
+							"custom_data": "{berries++:{type:'valorberries'}}"
+					}
 				}
 			}
 		}

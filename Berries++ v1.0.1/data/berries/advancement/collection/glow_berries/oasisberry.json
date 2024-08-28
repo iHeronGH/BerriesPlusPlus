@@ -5,7 +5,9 @@
 			"conditions": {
 				"items": [
 					{
-						"nbt": "{berries++:{type:'oasisberries'}}",
+						"components": {
+							"custom_data":"{berries++:{type:'oasisberries'}}"
+						},
 						"items": [
 							"minecraft:glow_berries"
 						]

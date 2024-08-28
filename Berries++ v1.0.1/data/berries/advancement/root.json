@@ -1,8 +1,10 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:sweet_berries",
-			"nbt": "{CustomModelData:100000}"
+			"id": "minecraft:sweet_berries",
+			"components": {
+				"custom_model_data":100000
+			}				
 		},
 		"title": {
 			"text": "Berries++!",

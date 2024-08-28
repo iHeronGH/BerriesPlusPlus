@@ -1,8 +1,10 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:glow_berries",
-			"nbt": "{CustomModelData:100006}"
+			"id": "minecraft:glow_berries",
+			"components": {
+				"custom_data":"{CustomModelData:100006}"
+			}
 		},
 		"title": "Glimmering Shimmering Berries!",
 		"description": "Collect one of the 10 new glow berries!",

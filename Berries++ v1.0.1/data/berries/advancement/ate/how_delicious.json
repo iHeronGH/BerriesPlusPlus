@@ -1,8 +1,10 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:glow_berries",
-			"nbt": "{CustomModelData:100018}"
+			"id": "minecraft:glow_berries",
+			"components": {
+				"custom_data": "{CustomModelData:100018}"
+			}
 		},
 		"title": "How Delicious!",
 		"description": "Discover all 10 new glow berry effects!",

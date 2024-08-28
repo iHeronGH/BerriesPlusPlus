@@ -5,7 +5,9 @@
 			"conditions": {
 				"items": [
 					{
-						"nbt": "{berries++:{type:'strawberries'}}",
+						"components": {
+							"custom_data":"{berries++:{type:'strawberries'}}"
+						},
 						"items": [
 							"minecraft:sweet_berries"
 						]
