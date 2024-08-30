@@ -1,0 +1,19 @@
+{
+	"criteria": {
+		"get_whitecurrant": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"components": {
+							"custom_data":"{berries++:{type:'whitecurrants'}}"
+						},
+						"items": [
+							"minecraft:sweet_berries"
+						]
+					}
+				]
+			}
+		}
+	}
+}

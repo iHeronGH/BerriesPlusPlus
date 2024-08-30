@@ -1,0 +1,19 @@
+{
+	"criteria": {
+		"get_honeyberry": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"components": {
+							"custom_data":"{berries++:{type:'honeyberries'}}"
+						},
+						"items": [
+							"minecraft:glow_berries"
+						]
+					}
+				]
+			}
+		}
+	}
+}

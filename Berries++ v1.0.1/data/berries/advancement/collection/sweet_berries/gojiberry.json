@@ -1,0 +1,19 @@
+{
+	"criteria": {
+		"get_gojiberry": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"components": {
+							"custom_data":"{berries++:{type:'gojiberries'}}"
+						},
+						"items": [
+							"minecraft:sweet_berries"
+						]
+					}
+				]
+			}
+		}
+	}
+}

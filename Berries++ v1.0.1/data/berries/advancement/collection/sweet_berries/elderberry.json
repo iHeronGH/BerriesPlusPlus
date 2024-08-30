@@ -1,0 +1,19 @@
+{
+	"criteria": {
+		"get_elderberry": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"components": {
+							"custom_data":"{berries++:{type:'elderberries'}}"
+						},
+						"items": [
+							"minecraft:sweet_berries"
+						]
+					}
+				]
+			}
+		}
+	}
+}

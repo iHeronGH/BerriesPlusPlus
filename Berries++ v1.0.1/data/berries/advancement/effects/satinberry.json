@@ -1,0 +1,20 @@
+{
+	"criteria": {
+		"ate_satinberry": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:glow_berries"
+					],
+					"components": {
+						"custom_data":"{berries++:{type:'satinberries'}}"
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "berries:effects/satinberry"
+	}
+}

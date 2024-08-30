@@ -1,0 +1,32 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:sweet_berries",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"text": "Cloudberries",
+								"italic": false
+							}
+						},
+						{
+						  "function": "minecraft:set_custom_model_data",
+						  "value": 100008
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{berries++:{type:'cloudberries'}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

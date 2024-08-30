@@ -1,0 +1,19 @@
+{
+	"criteria": {
+		"get_blossomberry": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"components": {
+							"custom_data":"{berries++:{type:'blossomberries'}}"
+						},
+						"items": [
+							"minecraft:glow_berries"
+						]
+					}
+				]
+			}
+		}
+	}
+}

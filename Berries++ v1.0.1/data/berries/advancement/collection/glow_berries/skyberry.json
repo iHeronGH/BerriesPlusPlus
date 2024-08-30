@@ -1,0 +1,19 @@
+{
+	"criteria": {
+		"get_skyberry": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"components": {
+							"custom_data":"{berries++:{type:'skyberries'}}"
+						},
+						"items": [
+							"minecraft:glow_berries"
+						]
+					}
+				]
+			}
+		}
+	}
+}

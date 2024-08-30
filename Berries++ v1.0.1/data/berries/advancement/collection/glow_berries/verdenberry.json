@@ -1,0 +1,19 @@
+{
+	"criteria": {
+		"get_verdenberry": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"components": {
+							"custom_data":"{berries++:{type:'verdenberries'}}"
+						},
+						"items": [
+							"minecraft:glow_berries"
+						]
+					}
+				]
+			}
+		}
+	}
+}

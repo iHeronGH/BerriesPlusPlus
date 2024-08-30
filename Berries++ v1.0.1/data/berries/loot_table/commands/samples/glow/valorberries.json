@@ -1,0 +1,50 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:glow_berries",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"text": "Valorberries",
+								"color": "#bd9f73",
+								"italic": false
+							}
+						},
+						{
+							"mode": "replace_all",
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "  A vivid berry found in the deltas.",
+									"color": "dark_gray",
+									"italic": false
+								},
+								{
+									"text": "It glows crimson in your talons.",
+									"color": "dark_gray",
+									"italic": false
+								}
+							]
+						},
+						{
+						  "function": "minecraft:set_custom_model_data",
+						  "value": 100021
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{berries++:{type:'valorberries'}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,213 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:glow_berries",
+			"components": {
+				"custom_data":"{CustomModelData:100015}"
+			}
+		},
+		"title": "A Sweet Treat!",
+		"description": "Collect one of the 15 new sweet berries!",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+	"parent": "berries:root",
+	"criteria": {
+		"one_sweet_berry": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:any_of",
+						"terms": [
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"type_specific": {
+										"type": "player",
+										"advancements": {
+											"berries:collection/sweet_berries/blackberry": true
+										}
+									}
+								}
+							},
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"type_specific": {
+										"type": "player",
+										"advancements": {
+											"berries:collection/sweet_berries/blackcurrant": true
+										}
+									}
+								}
+							},
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"type_specific": {
+										"type": "player",
+										"advancements": {
+											"berries:collection/sweet_berries/blueberry": true
+										}
+									}
+								}
+							},
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"type_specific": {
+										"type": "player",
+										"advancements": {
+											"berries:collection/sweet_berries/chokeberry": true
+										}
+									}
+								}
+							},
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"type_specific": {
+										"type": "player",
+										"advancements": {
+											"berries:collection/sweet_berries/cloudberry": true
+										}
+									}
+								}
+							},
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"type_specific": {
+										"type": "player",
+										"advancements": {
+											"berries:collection/sweet_berries/cranberry": true
+										}
+									}
+								}
+							},
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"type_specific": {
+										"type": "player",
+										"advancements": {
+											"berries:collection/sweet_berries/elderberry": true
+										}
+									}
+								}
+							},
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"type_specific": {
+										"type": "player",
+										"advancements": {
+											"berries:collection/sweet_berries/gojiberry": true
+										}
+									}
+								}
+							},
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"type_specific": {
+										"type": "player",
+										"advancements": {
+											"berries:collection/sweet_berries/gooseberry": true
+										}
+									}
+								}
+							},
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"type_specific": {
+										"type": "player",
+										"advancements": {
+											"berries:collection/sweet_berries/huckleberry": true
+										}
+									}
+								}
+							},
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"type_specific": {
+										"type": "player",
+										"advancements": {
+											"berries:collection/sweet_berries/pineberry": true
+										}
+									}
+								}
+							},
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"type_specific": {
+										"type": "player",
+										"advancements": {
+											"berries:collection/sweet_berries/raspberry": true
+										}
+									}
+								}
+							},
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"type_specific": {
+										"type": "player",
+										"advancements": {
+											"berries:collection/sweet_berries/redcurrant": true
+										}
+									}
+								}
+							},
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"type_specific": {
+										"type": "player",
+										"advancements": {
+											"berries:collection/sweet_berries/strawberry": true
+										}
+									}
+								}
+							},
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"type_specific": {
+										"type": "player",
+										"advancements": {
+											"berries:collection/sweet_berries/whitecurrant": true
+										}
+									}
+								}
+							}
+						]
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"experience": 100
+	}
+}

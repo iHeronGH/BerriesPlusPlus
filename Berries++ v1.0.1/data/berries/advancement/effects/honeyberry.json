@@ -1,0 +1,20 @@
+{
+	"criteria": {
+		"ate_honeyberry": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:glow_berries"
+					],
+					"components": {
+						"custom_data":"{berries++:{type:'honeyberries'}}"
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "berries:effects/honeyberry"
+	}
+}
