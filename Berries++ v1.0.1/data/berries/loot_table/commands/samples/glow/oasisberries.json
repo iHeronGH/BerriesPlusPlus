@@ -40,8 +40,10 @@
 							]
 						},
 						{
-						  "function": "minecraft:set_custom_model_data",
-						  "value": 100017
+							"function": "minecraft:set_components",
+							"components": {
+							  "minecraft:item_model": "minecraft:berries/glow/oasisberries"
+							}
 						},
 						{
 							"function": "minecraft:set_custom_data",

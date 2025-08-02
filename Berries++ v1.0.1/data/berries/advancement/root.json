@@ -3,8 +3,8 @@
 		"icon": {
 			"id": "minecraft:sweet_berries",
 			"components": {
-				"custom_model_data":100000
-			}				
+				"minecraft:item_model": "minecraft:berries/sweet/blueberries"
+			}			
 		},
 		"title": {
 			"text": "Berries++!",
